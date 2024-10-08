@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+.divler{
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.blokbir{
+    border: 3px solid red;
+    background-color: lightgreen;
+    padding: 40px;
+    margin: 10px;
+}
+.blokiki{
+    border: 3px solid red;
+    background-color: #ddaefa;
+    padding: 40px;
+    margin: 10px;
+}
+.blokuc{
+    border: 3px solid red;
+    background-color: rgb(155, 55, 128);
+    padding: 40px;
+    margin: 10px;
+}
+.blokdord{
+    border: 3px solid red;
+    background-color: hsl(60, 22%, 50%);
+    padding: 40px;
+    margin: 10px;
+}
+
+.blokuc p{
+    color: white;
+}
+.blokdord p{
+    color: white;
+}
+
+div p{
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.birinci{
+    background-color: rgb(81, 174, 202);
+    padding: 50px;
+}
+.birinci h1{
+    font-size: 30px;
+    color: white;
+    
+
+}
+
+.ikinci h1{
+    color: gray;
+    font-size: 20px;
+    margin: 50px;
+}
+.ikinci p{
+    color: gray;
+    margin: 50px;
+}
+
+.ucuncu{
+    background-color: rgb(70, 70, 70);
+}
+
+.ucuncu h1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ucuncu p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.yazi1{
+    width: 15%;
+    margin: 40px;
+}
+
+.yazi2{
+    width: 15%;
+    margin: 40px;
+}
+.yazi3{
+    width: 15%;
+    margin: 40px;
+}
+
+.ucuncu{
+
+    display: flex;
+} 
