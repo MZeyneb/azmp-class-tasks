@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    background-image: url("https://images3.alphacoders.com/133/1330535.png");
+}
+
+.box{
+
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.yazi{
+    width: 20%;
+    font-size: 10px;
+    color: rgb(112, 99, 83);
+    text-align: center;
+    margin: 30px 20px;
+
+}
+
+.boyukyazi{
+    font-size: 70px;
+    color: rgb(112, 99, 83);
+    margin: 30px 20px;
+    text-align: center;
+
+
+
+
+}
+
+.kicikyazi{
+    width: 70%;
+    text-align: center;
+    color: rgb(112, 99, 83);
+    margin: 30px 20px;
+}
+
+button{
+    color: rgb(112, 99, 83);
+    background-color: beige;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 5px 30px;
+    cursor: pointer;
+    transition: 0.5s;
+
+    margin: 30px 20px;
+
+    font-size: 15px;
+}
+
+i{
+
+    color: rgb(112, 99, 83);
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ikonlar{
+    margin: 30px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: burlywood;
+
+
+}
