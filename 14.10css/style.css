@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 320px;    
+
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+}
+ul li a{
+    font-size: 16px;
+    color:black
+}
+
+.lis{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.cart{
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cart:hover{
+    color: white;
+    background-color: rgb(33 37 36);;
+
+}
+
+.card button:hover{
+    color: white;
+    background-color: rgb(33 37 36);;
+
+}
+
+
+
+ nav .cart span{
+    background-color: black;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.cart h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cart i{
+    text-align: center;
+}
+
+.lis .boot{
+
+    font-size: 20px;
+    color: black;
+
+}
+
+#qara{
+    background-color: rgb(33 37 36);
+    padding: 90px;
+
+
+}
+
+#qara h1{
+    font-size: 55px;
+    color: white;
+    text-align: center;
+
+
+}
+
+#qara p{
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+}
+
+#cards{
+   
+    padding: 80px 330px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    justify-content: space-between;
+    
+}
+
+#cards .card{
+
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(196, 196, 196);
+    position: relative;
+    border-radius: 5px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h1{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.card h4{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.card button{
+    font-size: 16px;
+    border: 1px solid rgb(33 37 36);
+    padding: 5px 7px;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+
+footer p{
+
+    color: white;
+    text-align: center;
+
+}
+
+footer{
+    padding: 50px;
+    background-color: rgb(33 37 36);
+}
+
+#cards .card .stars{
+    display: flex;
+    position: absolute;
+    color: rgb(233, 195, 26);
+    bottom: 110px;
+    font-size: 12px;
+}
+
+
+
+#cards .iki h4{
+    color: white;
+    
+
+}
+
+#cards .iki h5{
+    position: absolute;
+    color: black;
+    font-weight: 400;
+    bottom: 80px;
+    font-size: 16px;
+
+
+    
+
+}
+#cards .iki h5 span{
+    text-decoration: line-through;
+    color: rgb(78, 78, 78);
+
+    
+
+}
+
+.sale{
+    position: absolute;
+    color: white;
+    background-color: rgb(33 37 36);
+    border-radius: 5px;
+    padding: 1px 2px;
+    font-size: 12px;
+    top: 10px;
+    right: 10px;
+}
+
