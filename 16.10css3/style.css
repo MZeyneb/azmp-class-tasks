@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 300px;
+}
+
+.sag ul{
+    display: flex;
+    gap: 10px;
+}
+.sag ul a{
+    font-size: 14px;
+    color: rgb(59, 59, 59);
+}
+
+.sag ul .search{
+    cursor: pointer;
+    color: red;
+    border: 2px solid red;
+    padding: 3px 6px;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 170px;
+}
+
+.logo img{
+    width: 170px;
+}
+.secim ul{
+    display: flex;
+    gap: 10px;
+}
+.secim li{
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(59, 59, 59);
+}
+
+nav li a i{
+    /* color: red; */
+}
+
+.buton button{
+    font-size: 15px;
+    color: white;
+    padding: 3px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(238, 67, 67);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.buton button:hover{
+    background-color: red;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 300px;
+    background-color: #e8ecf1;
+}
+.butonlar{
+
+
+    gap: 10px;
+    display: none;
+
+  
+}
+
+.ici{
+    display: flex;
+    gap: 10px;
+
+}
+
+.row{
+    background-color: #142336;
+
+}
+
+
+.col-3 .icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    color: rgb(205, 195, 50);
+}
+
+.col-3 h1{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.col-3 p{
+    font-size: 20px;
+    text-align: center;
+    color: #4789d2;
+}
+
+@media only screen and (max-width: 1023px) {
+    nav .sag ul{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    nav {
+        padding: 30px 0;
+    }
+    
+    .sag .butonlar{
+        display: block;
+        gap: 10px;
+   
+    }
+
+
+}
