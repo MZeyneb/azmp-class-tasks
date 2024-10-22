@@ -1,0 +1,14 @@
+nav{
+    @include flex(space-between, center);
+    padding: 20px 120px;
+    background-color: black;
+    ul{
+        display: flex;
+        gap: 10px;
+        a{
+            color: white;
+
+        }
+    }
+}
+
