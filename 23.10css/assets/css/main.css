@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#new_arrivals .container h2 {
+  font-size: 40px;
+  color: black;
+  font-weight: 700;
+  padding-bottom: 5%;
+}
+
+#new_arrivals .col-4 .card h3 {
+  font-size: 20px;
+  color: #635c5c;
+  font-weight: 700;
+  padding: 3%;
+}
+
+#banner .left .butn button {
+  background-color: #635c5c;
+  font-size: 15px;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 12px 22px;
+  border: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+  padding: 1rem;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+  padding: 1rem;
+}
+
+.col-3 {
+  width: 25%;
+  padding: 1rem;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+  padding: 1rem;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+  padding: 1rem;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+  padding: 1rem;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+  padding: 1rem;
+}
+
+.col-9 {
+  width: 75%;
+  padding: 1rem;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+  padding: 1rem;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+  padding: 1rem;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1023px) {
+  .col-md-1 {
+    width: 8.3333333333%;
+    padding: 1rem;
+  }
+  .col-md-2 {
+    width: 16.6666666667%;
+    padding: 1rem;
+  }
+  .col-md-3 {
+    width: 25%;
+    padding: 1rem;
+  }
+  .col-md-4 {
+    width: 33.3333333333%;
+    padding: 1rem;
+  }
+  .col-md-5 {
+    width: 41.6666666667%;
+    padding: 1rem;
+  }
+  .col-md-6 {
+    width: 50%;
+    padding: 1rem;
+  }
+  .col-md-7 {
+    width: 58.3333333333%;
+    padding: 1rem;
+  }
+  .col-md-8 {
+    width: 66.6666666667%;
+    padding: 1rem;
+  }
+  .col-md-9 {
+    width: 75%;
+    padding: 1rem;
+  }
+  .col-md-10 {
+    width: 83.3333333333%;
+    padding: 1rem;
+  }
+  .col-md-11 {
+    width: 91.6666666667%;
+    padding: 1rem;
+  }
+  .col-md-12 {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .col-sm-1 {
+    width: 8.3333333333%;
+    padding: 1rem;
+  }
+  .col-sm-2 {
+    width: 16.6666666667%;
+    padding: 1rem;
+  }
+  .col-sm-3 {
+    width: 25%;
+    padding: 1rem;
+  }
+  .col-sm-4 {
+    width: 33.3333333333%;
+    padding: 1rem;
+  }
+  .col-sm-5 {
+    width: 41.6666666667%;
+    padding: 1rem;
+  }
+  .col-sm-6 {
+    width: 50%;
+    padding: 1rem;
+  }
+  .col-sm-7 {
+    width: 58.3333333333%;
+    padding: 1rem;
+  }
+  .col-md-8 {
+    width: 66.6666666667%;
+    padding: 1rem;
+  }
+  .col-md-9 {
+    width: 75%;
+    padding: 1rem;
+  }
+  .col-sm-10 {
+    width: 83.3333333333%;
+    padding: 1rem;
+  }
+  .col-sm-11 {
+    width: 91.6666666667%;
+    padding: 1rem;
+  }
+  .col-sm-12 {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+header {
+  width: 100%;
+  box-shadow: 0 2px 10px -4px gray;
+}
+header .header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  gap: 25px;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #635c5c;
+  font-weight: 500;
+  transition: 0.3s;
+}
+header nav ul li a:hover {
+  color: #ff003c;
+}
+header .icons {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+header .icons i {
+  cursor: pointer;
+  transition: 0.3s;
+  color: black;
+}
+header .icons i:hover {
+  color: #ff003c;
+}
+
+#banner {
+  display: flex;
+  background-color: #f0f0f2;
+}
+#banner .left {
+  padding: 15% 20%;
+  width: 50%;
+}
+#banner .left .butn {
+  position: relative;
+  width: 170px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#banner .left .butn:hover .overlay {
+  width: 100%;
+}
+#banner .left .butn .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #ff003c;
+  width: 0;
+  transition: 0.5s;
+}
+#banner .left .butn button {
+  width: 100%;
+  cursor: pointer;
+}
+#banner .left .butn button h2 {
+  position: relative;
+  z-index: 1000;
+}
+#banner .left h1 {
+  font-size: 60px;
+  font-weight: 700;
+  padding-bottom: 5%;
+}
+#banner .left p {
+  padding-bottom: 8%;
+  font-size: 15px;
+}
+#banner .right {
+  width: 50%;
+}
+
+#new_arrivals .container {
+  padding: 7% 10%;
+}
+#new_arrivals .col-4 {
+  padding: 0px;
+}
+#new_arrivals .col-4 .card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#new_arrivals .col-4 .card span {
+  color: #ff003c;
+}
+
+#images img {
+  width: 100%;
+}
+#images .row .col-6 {
+  display: flex;
+}
+#images .row .col-6 img {
+  width: 100%;
+}
+#images .row .col-6 .col-6 {
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+#images .row .col-6 .col-6 img {
+  width: 100%;
+}
+#images .row .col-6 .col-6 .col-12 {
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,127 @@
+#banner{
+    display: flex;
+    background-color: #f0f0f2;
+
+    
+    .left{
+        padding: 15% 20%;
+        width: 50%;
+        .butn{
+            position: relative;
+            width: 170px;
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover .overlay{
+                width: 100%;
+
+            }
+
+            .overlay{
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                background-color: $color-red;
+                width: 0;
+                transition: 0.5s;
+            }
+            button{
+                width: 100%;
+                cursor: pointer;
+                @extend %buton;
+                h2{
+                    position: relative;
+                    z-index: 1000;
+                }
+
+            
+            }
+        }
+
+        h1{
+            font-size: 60px;
+            font-weight: 700;
+            padding-bottom: 5%;
+
+
+        }
+        p{
+            padding-bottom: 8%;
+            font-size: 15px;
+        }
+      
+    }
+
+    .right{
+        width: 50%;
+    }
+
+}
+#new_arrivals{
+
+    .container{
+
+        padding: 7% 10%;
+
+        h2{
+            @extend %title;
+
+        }
+    }
+    .col-4{
+
+        .card{
+
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            h3{
+                @extend %title-img;
+            }
+            span{
+                color: $color-red;
+            }
+            
+        }
+        padding: 0px;
+
+
+    }
+  
+}
+
+#images{
+    img{
+        width: 100%;
+    }
+
+    .row{
+
+        .col-6{
+            display: flex;
+
+            img{
+                width: 100%;
+            }
+            .col-6{
+                flex-direction: column;
+                justify-content: center;
+                gap: 30px;
+                img{
+                    width: 100%;
+               
+                }
+
+                .col-12{
+                    width: 100%;
+                }
+            }
+            
+
+
+        }
+    }
+
+}

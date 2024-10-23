@@ -2,6 +2,11 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
   
   .col-1 {
     width: calc(100% / 12 * 1);
@@ -25,7 +30,8 @@
   }
   .col-6 {
     width: calc(100% / 12 * 6);
-    padding: 1rem;
+    
+
   }
   .col-7 {
     width: calc(100% / 12 * 7);
@@ -49,7 +55,7 @@
   }
   .col-12 {
     width: calc(100% / 12 * 12);
-    padding: 1rem;
+
   }
   
   
