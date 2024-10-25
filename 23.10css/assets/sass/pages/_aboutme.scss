@@ -1,0 +1,138 @@
+#foot1{
+  background-color: $color-cream;
+  
+  .container{
+    width: 100%;
+    
+    .imgs{
+      @include center(space-between,center);
+      flex-wrap: wrap;
+      padding: 50px 0;
+      
+    }
+  }
+}
+
+#foot2{
+  background-color: $color-cream-dark;
+  .container{
+    .row{
+     
+      padding: 90px 0;
+      .col-4{
+        .footerstar{
+          position: relative;
+          .star{
+            position: absolute;
+            bottom: 1px;
+          }
+          .shape{
+            position: absolute;
+            bottom:65px;
+            left: 55px;
+          }
+        }
+      
+        .imgcloud{
+          position: relative;
+         .cloud{
+          position: absolute;
+          left: 135px;
+        
+         }
+         .blog{
+          position: absolute;
+          left: 100px;
+         }
+
+        }
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        
+        p{
+          padding-top: 40px;
+          left: 40px;
+        }
+        h4{
+          width: 400px;
+          font-size: 40px;
+          word-spacing: 6px;
+          
+        }
+        h5{
+          font-size: 15px;  
+          letter-spacing: 4px;
+        }
+        .orange{
+         
+            @extend %buton;
+            background-color: $color-orange;
+            border-radius: 6px;
+            width: 150px;
+        }
+        
+   
+      }
+    }
+  }
+}
+
+#foot3{
+  background-color:  #28293E;
+  padding: 40px 0;
+.container{
+  .row{
+
+    .col-3{
+     
+      
+      .ikons{
+        padding-top: 15px;
+        i{
+          background-color: #EF6D58;
+          border-radius: 50%;
+          padding: 7px;
+          color: $color-white;
+          
+        }
+      }
+      padding: 0;
+      h2{
+        color: white;
+        padding-top: 15px;
+       
+      }
+      h3{
+       color: $color-orange;
+       padding: 10px 10px;
+       
+      }
+      ul{
+        li{
+          padding: 10px;
+          a{
+            color: white;
+          }
+        }
+      }
+    }
+
+  }
+}
+}
+
+#foot4{
+  background-color: #28293E;
+  display: flex;
+  justify-content: space-between;
+  .pharagright{
+    display: flex;
+  }
+  p{
+    color: white;
+    opacity: 0.64;
+    padding: 40px;
+  }
+}
