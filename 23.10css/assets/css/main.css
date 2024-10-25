@@ -541,6 +541,7 @@ header .icons i:hover {
 
 #digital {
   background-color: rgb(253, 240, 233);
+  padding: 7% 0;
 }
 #digital .container {
   display: flex;
