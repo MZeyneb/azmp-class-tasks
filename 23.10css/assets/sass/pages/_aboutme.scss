@@ -1,0 +1,166 @@
+#counts{
+    background-color: $cream;
+    .container{
+        padding: 5% 0;
+
+
+
+    
+
+    .row{
+        .col-6{
+            display: flex;
+            border-radius: 6px;
+            padding: 50px 0;
+            background-color: transparent;
+            gap: 30px;
+            outline: 1px solid rgb(243, 209, 191);
+
+         
+
+            .icon{
+                background-color: $orange;
+                width: 112px;
+                height: 112px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 50px;
+
+            }
+            .yazi{
+                
+
+                h1{
+                    font-size: 40px;
+                    font-weight: 800;
+                    color: $dark-brown;
+                }
+                p{
+                    font-size: 20px;
+                    color: $dark-brown;
+                    font-weight: 400;
+                    padding-top: 40px;
+                }
+            }
+        }
+
+
+    }
+}
+
+
+}
+
+#video-reel{
+    background-color: $cream;
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3% 30%;
+        gap: 35px;
+
+
+        .video{
+            width: 100%;
+            position: relative;
+            .image{
+                width: 100%;
+
+            }
+            .player{
+                position: absolute;
+                left: 270px;
+                top: 150px;
+                
+                
+            }
+            .one_45{
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+                background-color: rgba(0,0,0,0.3);
+                padding: 5px;
+                border-radius: 5px;
+            }
+        }
+        h5{
+            color: $orange;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: start;
+            display: flex;
+            justify-content: start;
+            width: 100%;
+         }
+        h3{
+            font-size: 40px;
+            color: $dark-brown;
+            font-weight: 800;
+        }
+        p{
+            font-size: 16px;
+            color: $dark-brown;
+            font-weight: 400;
+            line-height: 40px;
+        }
+       
+
+
+    }
+}
+
+
+#digital{
+    background-color: $cream;
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3% 30%;
+        gap: 35px;
+
+
+     
+        h5{
+            color: $orange;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: start;
+            display: flex;
+            justify-content: start;
+            width: 100%;
+         }
+        h3{
+            font-size: 40px;
+            color: $dark-brown;
+            font-weight: 800;
+            display: flex;
+            justify-content: start;
+            width: 100%;
+        }
+        p{
+            font-size: 16px;
+            color: $dark-brown;
+            font-weight: 400;
+            line-height: 5px;
+            display: flex;
+            justify-content: start;
+            width: 100%;
+            font-weight: 200;
+        }
+        .firstp{
+            font-weight: 400;
+        }
+       
+
+
+    }
+
+    
+
+}
+
