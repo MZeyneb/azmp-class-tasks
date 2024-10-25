@@ -671,9 +671,21 @@ counts .container .row .col-6 .yazi p {
 #more .container .row .col-4 .card {
   padding: 20px;
 }
-#more .container .row .col-4 .card img {
+#more .container .row .col-4 .card .imge {
+  overflow: hidden;
   width: 100%;
-  padding-bottom: 3%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#more .container .row .col-4 .card img {
+  transition: 0.3s;
+  border-radius: 5px;
+}
+#more .container .row .col-4 .card img:hover {
+  scale: 1.5;
 }
 #more .container .row .col-4 .card p {
   font-size: 20px;
