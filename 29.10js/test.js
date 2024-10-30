@@ -323,6 +323,8 @@ let emekhaqqi = +prompt("emek haqqi: ");
 let mebleg = +prompt("istediyiniz mebleg: ");
 let muddet = +prompt("istediyiniz muddet(ay): ");
 let max_mud = 36;
+let max_kredit = emekhaqqi * 10;
+let max_ayliq = emekhaqqi * 0.45;
 
 let kredit;
 let borc;
@@ -335,8 +337,15 @@ if(muddet<max_mud){
         
         borc= mebleg + faiz;
         ayliq = borc/muddet;
-        alert(`${mebleg}azn mebleg size 13%le ${muddet} muddetinde ayliq ${ayliq} azn ile verilir.`);
+        if (ayliq > max_ayliq) {
+            alert("Size bu shertlerle kredit dushmur.");
 
+        }
+        else{
+
+            alert(`${mebleg}azn mebleg size 17%le ${muddet} ay muddetinde ayliq ${ayliq} azn ile verilir.`);
+
+        }
 
     }
     else if(muddet>=12 && muddet < 24){
@@ -344,18 +353,37 @@ if(muddet<max_mud){
         
         borc= mebleg + faiz;
         ayliq = borc/muddet;
-        alert(`${mebleg}azn mebleg size 15%le ${muddet} muddetinde ayliq ${ayliq} azn ile verilir.`);
+        if (ayliq > max_ayliq) {
+            alert("Size bu shertlerle kredit dushmur.");
+
+        }
+        else{
+
+            alert(`${mebleg}azn mebleg size 17%le ${muddet} ay muddetinde ayliq ${ayliq} azn ile verilir.`);
+
+        }
 
     }
-    else if(muddet>=24 && muddet < 26){
+    else if(muddet>=24 && muddet < 36){
         faiz = (mebleg*17)/100;
         
         borc= mebleg + faiz;
         ayliq = borc/muddet;
-        alert(`${mebleg}azn mebleg size 17%le ${muddet} muddetinde ayliq ${ayliq} azn ile verilir.`);
+        if (ayliq > max_ayliq) {
+            alert("Size bu shertlerle kredit dushmur.");
+
+        }
+        else{
+
+            alert(`${mebleg}azn mebleg size 17%le ${muddet} ay muddetinde ayliq ${ayliq} azn ile verilir.`);
+
+        }
 
     }
 
+}
+else if (mebleg > max_kredit) {
+    alert("Size bu shertlerle kredit dushmur.");
 }
     
 else{
