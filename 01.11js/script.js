@@ -558,7 +558,7 @@ let products = [
 
 // function rating(){
 //     for (let i = 0; i < products.length; i++) {
-//         if (products[i].rating.rate> 4){
+//         if (products[i].rating.rate< 4){
 //             console.log(products[i].title);
 //         }
         
@@ -578,3 +578,4 @@ let products = [
 // }
 
 // rating_count()
+
