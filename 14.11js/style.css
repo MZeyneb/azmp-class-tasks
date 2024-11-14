@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.quiz{
+    margin: 250px auto;
+    background-color: rgb(115, 160, 145);
+    width: 40%;
+}
+
+.question{
+    padding: 20px 10px
+}
+
+.text{
+    background-color: rgb(38, 83, 38);
+    padding: 0 20px;
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.text p{
+    font-size: 20px;
+    color: white;
+}
