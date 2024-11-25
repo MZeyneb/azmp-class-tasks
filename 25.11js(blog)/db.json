@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "id": "ab56",
+      "title": "Nemo enim ipsam voluptatem quia",
+      "body": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum",
+      "author": "bob_smith"
+    },
+    {
+      "id": "9a3d",
+      "title": "Ut enim ad minima veniam",
+      "body": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur",
+      "author": "carol_white"
+    },
+    {
+      "id": "1c9b",
+      "title": "Excepteur sint occaecat cupidatat non proident",
+      "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+      "author": "dave_king"
+    }
+  ]
+}
