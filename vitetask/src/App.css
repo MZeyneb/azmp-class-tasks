@@ -40,20 +40,3 @@
 .read-the-docs {
   color: #888;
 }
-
-
-
-.cards{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-input{
-  width: 70%;
-  height: 45px;
-  font-size: 30px;
-}
-
-
-

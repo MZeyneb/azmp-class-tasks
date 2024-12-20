@@ -1,0 +1,44 @@
+
+nav{
+    width: 100%;
+    padding: 20px 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(32, 72, 79, 1);
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        li{
+            cursor: pointer;
+            font-size: 18px;
+            color: white;
+            font-weight: 300;
+        }
+    }
+    h1{
+        font-size: 35px;
+        color: white;
+        font-weight: 400;
+    }
+    .btns{
+        display: flex;
+        gap: 20px;
+        button{
+            padding: 10px 25px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .sign{
+            background-color: rgba(184, 228, 218, 1);
+        }
+        .login{
+            background-color: transparent;
+            color: white;
+        }
+    }
+
+}

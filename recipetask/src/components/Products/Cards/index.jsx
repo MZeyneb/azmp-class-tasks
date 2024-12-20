@@ -26,3 +26,4 @@ const Cards = ({ recipes, setRecipes }) => {
 };
 
 export default Cards;
+
