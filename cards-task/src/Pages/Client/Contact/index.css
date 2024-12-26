@@ -1,0 +1,139 @@
+/* General Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-color: rgb(29, 107, 81); /* Green background */
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Contact Form Section */
+  .contact-form-section {
+    padding: 60px 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .form-label {
+    font-size: 1.1rem;
+    color: rgb(29, 107, 81);
+  }
+  
+  .form-input, .form-textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    color: #333;
+  }
+  
+  .form-input:focus, .form-textarea:focus {
+    border-color: rgb(29, 107, 81); /* Green border on focus */
+    outline: none;
+  }
+  
+  .form-textarea {
+    height: 150px;
+  }
+  
+  .cta-button {
+    background-color: rgb(29, 107, 81); /* Green background */
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .cta-button:hover {
+    background-color: #00796b; /* Slightly darker green */
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: rgb(29, 107, 81); /* Green background */
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2.5rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1.2rem;
+    }
+  
+    .contact-form {
+      width: 100%;
+    }
+  
+    .cta-button {
+      font-size: 1rem;
+    }
+  }
+  

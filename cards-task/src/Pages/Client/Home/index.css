@@ -1,0 +1,115 @@
+/* General Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Hero Section (Updated) */
+.hero-section {
+  background-color: #fff; /* White background */
+  color: rgb(29, 107, 81); /* Green text */
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: rgb(29, 107, 81); /* Green background */
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.cta-button:hover {
+  background-color: #00796b; /* Slightly darker green */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+/* Main Content Sections */
+.main-content {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.main-content .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: rgb(29, 107, 81); /* Green text */
+  margin-bottom: 15px;
+}
+
+.section-description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Footer Section */
+.footer {
+  background-color: rgb(29, 107, 81); /* Green background */
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Additional Styles for Responsive Design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  #features .card {
+    margin-bottom: 20px;
+  }
+
+  .navbar-toggler {
+    margin-left: 10px;
+  }
+}
