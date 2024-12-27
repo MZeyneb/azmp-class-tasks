@@ -4,15 +4,20 @@ import './index.css'
 import App from './App.jsx'
 import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter } from 'react-router-dom';
+import FavoritesProvider from './Context/FavoritesContext';
 
 
 createRoot(document.getElementById('root')).render(
   <HelmetProvider>
     <BrowserRouter>
-      <App />
-    
+      <FavoritesProvider>
+
+        <App />
+
+      </FavoritesProvider>
+
     </BrowserRouter>
 
   </HelmetProvider>
-    
+
 )

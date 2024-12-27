@@ -3,11 +3,14 @@ import { endpoints } from '../../../Data/constants';
 import "../Home/index.css"
 import { useState, useEffect } from 'react';
 import getAllData from "../../../Data/index.js"
-
+import "../Home/index.css"
+import { BsFillHeartFill } from "react-icons/bs";
+import { FavoritesContext } from '../../../Context/FavoritesContext';
+import { useContext } from 'react';
 const Home = () => {
 
   const [products, setProducts] = useState([]);
-
+  const {favorites, toggleFavorites, clearFavorites} = useContext(FavoritesContext)
 const getProducts = async () => {
   
   try {
@@ -26,17 +29,24 @@ useEffect(() => {
   return (
     <>
     <div className="App">
+      <div className="cards">
+
+
       {products.length> 0 && products.map((p)=>{
         return(
           <div className="card" key={p.id}>
+            <div className="ic">
+            <BsFillHeartFill onClick={() => toggleFavorites(p)}/>
+            <button onClick={()=>tog}></button>
+            </div>
             <img src={p.image} alt="" width={100}/>
             <h1 >{p.title}</h1>
             <p>{p.price}</p>
 
-
           </div>
         )
       })}
+      </div>
 
       {/* Header Section */}
       <header className="hero-section">

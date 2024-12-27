@@ -4,6 +4,7 @@ import './App.css'
 import About from './Pages/Client/About'
 import Contact from './Pages/Client/Contact'
 import Detail from './Pages/Client/Detail'
+import Favorites from './Pages/Client/Favorites'
 import Header from './Pages/Client/Header'
 import Home from './Pages/Client/Home'
 
@@ -17,6 +18,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Favorites" element={<Favorites />} />
+
 
       </Routes>
     </>
