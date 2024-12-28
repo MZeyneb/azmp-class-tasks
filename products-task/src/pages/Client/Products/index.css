@@ -1,0 +1,154 @@
+.card{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    background-color: white;
+    height: 350px;
+
+  
+  }
+
+  .card img{
+    width: 30%;
+    position: absolute;
+    top: 30px;
+  }
+
+  .card p{
+    font-size: 22px;
+    position: absolute;
+    top: 200px;
+    transition: 0.3s;
+  }
+  
+  .card:hover{
+    scale: 1.1;
+  }
+  
+  .card h1{
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+  }
+  
+  .products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 80px;
+  }
+
+  .card:hover  p{
+    font-weight: 700;
+    color: red;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .ip{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ip input{
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .ic{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+
+  .ic:hover{
+    color: rgb(255, 65, 65);
+    scale: 1.2;
+  }
+
+
+  .ads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 150px;
+    
+  }
+
+
+.srt {
+    margin-bottom: 20px;
+  }
+  
+
+
+  .sort-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+  
+
+  .sort-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(204, 105, 204); 
+  }
+
+  .sort-select {
+    padding: 6px 12px; 
+    font-size: 0.9rem; 
+    border: 1px solid rgb(204, 105, 204); 
+    border-radius: 4px;
+    background-color: rgb(255, 236, 255); 
+    color: rgb(204, 105, 204);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+
+  .sort-select:hover {
+    border-color: rgb(204, 105, 204); 
+    background-color: rgba(204, 105, 204, 0.1);
+  }
+  
+
+  .sort-select:focus {
+    border-color: rgb(204, 105, 204);
+    outline: none;
+    box-shadow: 0 0 4px rgba(204, 105, 204, 0.5); 
+  }
+
+  .sort-select option {
+    padding: 8px;
+    background-color: rgb(255, 236, 255); 
+    color: rgb(204, 105, 204);
+    border: none; 
+  }
+  
+
+  .sort-select option:hover {
+    background-color: rgba(204, 105, 204, 0.1); 
+  }
+  
