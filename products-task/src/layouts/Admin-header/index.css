@@ -1,0 +1,26 @@
+nav.adm{
+    display: flex;
+    padding: 30px 130px;
+    background-color: rgb(105, 173, 204);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+nav.adm ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav.adm h1{
+    color: rgb(38, 61, 71);
+}
+nav.adm ul a{
+    font-size: 18px;
+    /* color: white; */
+}
+
+
+nav.adm .normal{
+    color: rgb(38, 61, 71);
+}

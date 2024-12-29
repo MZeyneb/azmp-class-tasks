@@ -1,7 +1,13 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 import "../NotFound/index.css"
 const NotFound = () => {
   return (
+    <>
+    <Helmet>
+      <title>Error</title>
+    </Helmet>
+   
 <div className="main">
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +125,7 @@ const NotFound = () => {
     </g>
   </svg>
 </div>
-
+</>
   )
 }
 

@@ -1,7 +1,15 @@
 import React from 'react'
 import "../Contact/index.css"
+import { Helmet } from 'react-helmet-async'
+
 const Contact = () => {
   return (
+    <>
+    
+    <Helmet>
+      <title>Contact Us</title>
+    </Helmet>
+
     <div className="arch_contact_us_duplicate">
     <div className="responsive-container-block big-container">
       <div className="responsive-container-block container">
@@ -110,7 +118,7 @@ const Contact = () => {
       </div>
     </div>
   </div>
-  
+  </>
   )
 }
 
