@@ -1,29 +1,59 @@
-import React from 'react';
-import { useDeleteCategoryByIdMutation, useGetAllCategoriesQuery } from '../redux/services/categoriesApi';
-import { NavLink } from "react-router-dom"
-
+import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { addFavorite, removeFavorite } from "../redux/slices/favoritesSlice";
+import { useGetAllCategoriesQuery } from "../redux/services/categoriesApi";
+import { NavLink } from "react-router-dom";
 
 const Categories = () => {
-  const { data } = useGetAllCategoriesQuery(); 
-  const [deleteCategory] = useDeleteCategoryByIdMutation(); 
+  const { data } = useGetAllCategoriesQuery();
+  const dispatch = useDispatch();
+  const favorites = useSelector((state) => state.favorites);
 
-  const handleDelete = (id) => {
-    deleteCategory(id); 
+  const isFavorite = (id) => favorites.some((fav) => fav.id === id);
+
+  const toggleFavorite = (category) => {
+    if (isFavorite(category.id)) {
+      dispatch(removeFavorite(category.id));
+    } else {
+      dispatch(addFavorite(category));
+    }
   };
 
   return (
     <>
-      <h1>Categories</h1>
+    <div className="box">
+
+
+
+         <div className="arw">
+
+<h1>Categories App</h1>
+<nav>
+  <NavLink to="/">Home</NavLink> | <NavLink to="/favorites">Favorites</NavLink>
+</nav>
       <NavLink to={"/add-edit"}>Add Category</NavLink>
+
+</div>
       <ul>
-        {data?.map((d) => (
-          <li key={d.id}>
-            <h3>{d.name}</h3>
-            <p>{d.description}</p>
-            <button onClick={() => handleDelete(d.id)}>Sil</button>
+        {data?.map((category) => (
+          <li key={category.id}>
+            <h3>{category.name}</h3>
+            <p>{category.description}</p>
+            <button
+              onClick={() => toggleFavorite(category)}
+              style={{
+                color: isFavorite(category.id) ? "red" : "black",
+                border: "none",
+                background: "none",
+                cursor: "pointer",
+              }}
+            >
+              ❤️
+            </button>
           </li>
         ))}
       </ul>
+    </div>
     </>
   );
 };

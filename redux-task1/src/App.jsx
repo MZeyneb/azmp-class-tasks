@@ -1,21 +1,19 @@
-import Categories from "./components/Categories"
-import { Route, Routes } from 'react-router-dom'
-import AddCategory from './pages/add'
+import Categories from "./components/Categories";
+import Favorites from "./pages/favorites";
+import AddCategory from "./pages/add";
+import { Route, Routes, NavLink } from "react-router-dom";
+
 function App() {
-
-
   return (
     <>
-    
-    <h1>Categories</h1>
-    <Routes>
-          <Route path='/add-edit' element={<AddCategory />} />
-
+ 
+      <Routes>
+        <Route path="/" element={<Categories />} />
+        <Route path="/add-edit" element={<AddCategory />} />
+        <Route path="/favorites" element={<Favorites />} />
       </Routes>
-    <Categories/>
-      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
